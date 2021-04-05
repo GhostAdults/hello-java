@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class test {
     @Autowired
     @RequestMapping("/")
-    public String  Test(){
+    public String Test() {
         System.out.println("demo2-gitest");
+
         return "successed";
     }
 }
