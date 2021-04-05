@@ -11,6 +11,6 @@ public class test {
     @Autowired
     @RequestMapping("/")
     public String Test(){
-        return "demo2-reaplace";
+        return "demo2-git";
     }
 }
